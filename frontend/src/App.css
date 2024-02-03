@@ -1,0 +1,52 @@
+.App {
+  padding: 20px;
+}
+
+input {
+  width: 300px;
+  height: 50px;
+}
+
+button {
+  background-color: #4bc1f8; 
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.resize {
+  position: relative; 
+  width: 300px;
+  height: 300px;
+  border: 2px solid rgb(111, 82, 238);
+  overflow: auto;
+  margin-top: 20px;
+  background-image: linear-gradient(rgb(236, 209, 236), rgb(204, 233, 187));
+}
+
+.resize > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+ 
+}
+
+.first_div {
+  display: flex;
+  grid-gap: 20px;
+}
+
+.displayfield {
+  justify-content: center;
+  margin: 15px;
+  border: 1px solid black;
+  padding: 5px;
+}
